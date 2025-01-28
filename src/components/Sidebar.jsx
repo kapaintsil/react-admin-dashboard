@@ -1,7 +1,6 @@
 import './SideBar.css';
-import pageItems from '../data/sideBarPagesItems';
 import navList from '../data/sidebarNavItems';
-// import { indexOf } from 'echarts/types/src/export/api/util.js';
+import pageItems from '../data/sideBarPagesItems';
 
 function Sidebar() {
   return (
