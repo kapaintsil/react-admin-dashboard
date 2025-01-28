@@ -7,11 +7,18 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server ./api/info.json"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "boxicons": "^2.1.4",
+    "echarts": "^5.6.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-apexcharts": "^1.7.0",
+    "react-dom": "^18.3.1",
+    "remixicon": "^4.6.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
@@ -23,6 +30,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
+    "json-server": "^1.0.0-beta.3",
     "vite": "^6.0.5"
   }
 }

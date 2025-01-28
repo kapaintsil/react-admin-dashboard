@@ -1,0 +1,183 @@
+{
+  "cards": [
+    {
+      "_id": 1,
+      "name": "Sales",
+      "icon": "bi bi-cart",
+      "amount": 145,
+      "percentage": 0.12,
+      "active": true
+    },
+    {
+      "_id": 2,
+      "name": "Revenue",
+      "icon": "bi bi-currency-dollar",
+      "amount": 3246,
+      "percentage": 0.12,
+      "active": false
+    },
+    {
+      "_id": 3,
+      "name": "Customer",
+      "icon": "bi bi-people",
+      "amount": 1244,
+      "percentage": -0.11,
+      "active": false
+    }
+  ],
+  "news": [
+    {
+      "_id": 1,
+      "img": "./jsonimages/image1.jpg",
+      "title": "Breaking News: New Tech Innovation",
+      "subtitle": "A revolutionary tech product has been unveiled.",
+      "category": "Technology"
+    },
+    {
+      "_id": 2,
+      "img": "./jsonimages/image2.jpg",
+      "title": "Global Markets Surge",
+      "subtitle": "Stock markets worldwide experience a significant rise.",
+      "category": "Finance"
+    },
+    {
+      "_id": 3,
+      "img": "./jsonimages/image3.jpg",
+      "title": "Health Breakthrough",
+      "subtitle": "New treatment discovered for a rare disease.",
+      "category": "Health"
+    },
+    {
+      "_id": 4,
+      "img": "./jsonimages/image4.jpg",
+      "title": "Sports Update: Championship Win",
+      "subtitle": "Local team clinches the national championship.",
+      "category": "Sports"
+    },
+    {
+      "_id": 5,
+      "img": "./jsonimages/image5.jpg",
+      "title": "Entertainment Buzz",
+      "subtitle": "A-list actor announces new movie project.",
+      "category": "Entertainment"
+    }
+  ],
+  "topselling": [
+    {
+      "_id": 1,
+      "preview": "./jsonimages/preview1.jpg",
+      "name": "Running Shoes",
+      "price": 120,
+      "sold": 1200
+    },
+    {
+      "_id": 2,
+      "preview": "./jsonimages/preview2.jpg",
+      "name": "Smart Watch",
+      "price": 250,
+      "sold": 950
+    },
+    {
+      "_id": 3,
+      "preview": "./jsonimages/preview3.jpg",
+      "name": "Wireless Headphones",
+      "price": 180,
+      "sold": 1500
+    },
+    {
+      "_id": 4,
+      "preview": "./jsonimages/preview4.jpg",
+      "name": "Backpack",
+      "price": 80,
+      "sold": 2300
+    },
+    {
+      "_id": 5,
+      "preview": "./jsonimages/preview5.jpg",
+      "name": "Sunglasses",
+      "price": 90,
+      "sold": 1800
+    }
+  ],
+  "recentsales": [
+    {
+      "_id": 1,
+      "number": "#2457",
+      "customer": "Brandon Jacob",
+      "product": "Wireless Headphones",
+      "price": 64,
+      "status": "Approved"
+    },
+    {
+      "_id": 2,
+      "number": "#2458",
+      "customer": "Alice Johnson",
+      "product": "Running Shoes",
+      "price": 120,
+      "status": "Pending"
+    },
+    {
+      "_id": 3,
+      "number": "#2459",
+      "customer": "Michael Smith",
+      "product": "Smart Watch",
+      "price": 250,
+      "status": "Approved"
+    },
+    {
+      "_id": 4,
+      "number": "#2460",
+      "customer": "Emily Davis",
+      "product": "Backpack",
+      "price": 80,
+      "status": "Rejected"
+    },
+    {
+      "_id": 5,
+      "number": "#2461",
+      "customer": "David Wilson",
+      "product": "Sunglasses",
+      "price": 90,
+      "status": "Approved"
+    }
+  ],
+  "recentactivity": [
+    {
+      "_id": 1,
+      "time": "32 mins",
+      "color": "text-success",
+      "content": "New order received",
+      "highlight": "#2457"
+    },
+    {
+      "_id": 2,
+      "time": "1 hour",
+      "color": "text-warning",
+      "content": "System update in progress",
+      "highlight": "v2.3.1"
+    },
+    {
+      "_id": 3,
+      "time": "2 hours",
+      "color": "text-danger",
+      "content": "Payment failed for order",
+      "highlight": "#2458"
+    },
+    {
+      "_id": 4,
+      "time": "4 hours",
+      "color": "text-info",
+      "content": "New user registered",
+      "highlight": "Alice Johnson"
+    },
+    {
+      "_id": 5,
+      "time": "1 day",
+      "color": "text-primary",
+      "content": "Product restocked",
+      "highlight": "Wireless Headphones"
+    }
+  ]
+}
+
+
