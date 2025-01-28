@@ -1,6 +1,6 @@
 import './SideBar.css';
-import navList from '../data/sidebarNavItems';
-import pageItems from '../data/sideBarPagesItems';
+import navList from '../data/sidebarNavItems.js';
+import pageItems from '../data/sideBarPagesItems.js';
 
 function Sidebar() {
   return (
