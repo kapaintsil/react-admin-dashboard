@@ -22,7 +22,15 @@ const cards = [
     "amount": 1244,
     "percentage": -0.11,
     "active": false
+  },
+  {
+    "_id": 4,
+    "name": "Profit",
+    "icon": "bi bi-wallet2", 
+    "amount": 2000, 
+    "percentage": 0.18, 
+    "active": true 
   }
-]
+];
 
 export default cards;

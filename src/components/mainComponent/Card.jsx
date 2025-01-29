@@ -24,8 +24,8 @@ function Card({ card }) {
             </div>
             <div className="ps-3">
               <h6>
-                {card.name === 'Revenue'
-                  ? '$' + card.amount.toLocaleString('en-US')
+                {card.name === 'Revenue'|| card.name === 'Profit'
+                  ? 'GH₵' + card.amount.toLocaleString('en-US')
                   : card.amount.toLocaleString('en-US')}
               </h6>
               <span

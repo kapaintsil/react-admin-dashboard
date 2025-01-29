@@ -11,6 +11,10 @@ const reportData = {
     {
       name: "Customer",
       data: [15, 11, 32, 18, 18, 24, 11]
+    },
+    {
+      name: "Profit",
+      data: [5, 10, 7, 12, 9, 15, 11] 
     }
   ],
   options: {
@@ -24,7 +28,7 @@ const reportData = {
     marker: {
       size: 4,
     },
-    colors: ['#4154f1', '#2eca6a', '#ff771d'],
+    colors: ['#4154f1', '#2eca6a', '#ff771d', '#e74c3c'],
     fill: {
       type: 'gradient',
       gradient: {

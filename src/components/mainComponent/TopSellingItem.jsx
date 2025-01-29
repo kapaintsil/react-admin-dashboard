@@ -13,12 +13,12 @@ function TopSellingItem({ item }) {
           {item.name}
         </a>
       </td>
-      <td>${item.price.toFixed(2)}</td>
+      <td>GH₵{item.price.toFixed(2)}</td>
       <td className="fw-bold">
         {item.sold}
       </td>
       <td>
-        ${(item.price * item.sold).toLocaleString('en-US')}
+      GH₵{(item.price * item.sold).toLocaleString('en-US')}
       </td>
     </tr>
   );

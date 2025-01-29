@@ -40,7 +40,7 @@ function RecentSalesTable({ recentSales }) {
                   {item.product}
                 </a>
               </td>
-              <td>${item.price.toFixed(2)}</td>
+              <td>GH₵{item.price.toFixed(2)}</td>
               <td>
                 <span className={`badge bg-${handleStatus(item.status)}`}>
                   {item.status}
