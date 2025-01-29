@@ -8,6 +8,7 @@
   flex-shrink: 0;
   flex-grow: 0;
   min-width: 64px;
+  padding: 3px 0;
 }
 
 .dashboard .activity .activity-item .activity-label::before {
@@ -33,6 +34,10 @@
 
 .dashboard .activity .activity-item:first-child .activity-label::before {
   top: 5px;
+}
+
+.dashboard .activity .activity-item:last-child .activity-label::before {
+  bottom: 7px;
 }
 
 .dashboard .activity .activity-item:last-child .activity-content {
