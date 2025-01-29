@@ -1,32 +1,12 @@
-import { useState, useEffect } from 'react';
 
 import './Dashboard.css'
 import Card from './Card';
 import Report from './Report';
 import RecentSales from './RecentSales';
 import TopSelling from './TopSelling';
-
+import cards from '../../data/cardData';
 
 function Dashboard() {
-
-  const [cards, setCards] = useState([]);
-
-  const fetchData = async () => {
-    try {
-      const res = await fetch('http://localhost:3000/cards');
-      if (!res.ok) {
-        throw new Error(`HTTP error! Status: ${res.status}`);
-      }
-      const data = await res.json();
-      setCards(data);
-    } catch (e) {
-      console.log(e.message);
-    }
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
 
   return (
     <section  className='dashboard'>

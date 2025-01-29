@@ -2,32 +2,33 @@ import { useState, useEffect } from 'react'
 import './TopSelling.css'
 import CardFilter from './CardFilter';
 import TopSellingItem from './TopSellingItem';
+import topSelling from '../../data/topSellingData';
 
 function TopSelling() {
 
-  const [items, setItems] = useState([]);
+  // const [topSelling, settopSelling] = useState([]);
   const [filter, setFilter] = useState('Today');
   const handleFilterChange = filter => {
     setFilter(filter);
   }
 
-  const fetchData = async () => {
-    try {
-      const res = await fetch('http://localhost:3000/topselling');
-      if (!res.ok) {
-        throw new Error(`HTTP error! Status: ${res.status}`);
-      }
-      const data = await res.json();
-      setItems(data);
-    } catch (e) {
-      console.error('Error fetching data:', e.message);
-    }
-  };
+  // const fetchData = async () => {
+  //   try {
+  //     const res = await fetch('http://localhost:3000/topselling');
+  //     if (!res.ok) {
+  //       throw new Error(`HTTP error! Status: ${res.status}`);
+  //     }
+  //     const data = await res.json();
+  //     settopSelling(data);
+  //   } catch (e) {
+  //     console.error('Error fetching data:', e.message);
+  //   }
+  // };
   
 
-  useEffect(() => {
-    fetchData();
-  }, [])
+  // useEffect(() => {
+  //   fetchData();
+  // }, [])
 
   return (
     <div className='card top-selling overflow-auto'>
@@ -50,8 +51,8 @@ function TopSelling() {
           </thead>
           <tbody>
             {
-              items && items.length > 0 &&
-              items.map(item => (
+              topSelling && topSelling.length > 0 &&
+              topSelling.map(item => (
                 <TopSellingItem key={item._id} item={item} />
               ))
             }
