@@ -5,6 +5,7 @@ import Report from './Report';
 import RecentSales from './RecentSales';
 import TopSelling from './TopSelling';
 import cards from '../../data/cardData';
+import RecentActivity from './RecentActivity';
 
 function Dashboard() {
 
@@ -29,6 +30,7 @@ function Dashboard() {
           </div>
         </div>
         <div className="col-lg-4">
+          <RecentActivity />
         </div>
       </div>
     </section>
