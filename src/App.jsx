@@ -11,6 +11,8 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Main from './components/Main';
 import './App.css';
+import Footer from './components/Footer';
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Header />
       <Sidebar />
       <Main />
+      <Footer />
+      <BackToTop />
     </>
   );
 }

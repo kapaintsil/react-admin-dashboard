@@ -1,12 +1,13 @@
 
 import './Dashboard.css'
-import Card from './Card';
 import Report from './Report';
 import RecentSales from './RecentSales';
 import TopSelling from './TopSelling';
-import cards from '../../data/cardData';
 import RecentActivity from './RecentActivity';
 import BudgetReport from './BudgetReport';
+import WebTraffic from './WebTraffic';
+import News from './News';
+import Cards from './Cards';
 
 function Dashboard() {
 
@@ -14,11 +15,8 @@ function Dashboard() {
     <section  className='dashboard'>
       <div className="row">
         <div className="col-lg-8">
-          <div className="row">
-            {
-              cards && cards.length > 0 && 
-              cards.map(card => <Card key={card._id} card={card} />)
-            }
+          <div>
+            <Cards/>
             <div className='col-12'>
               <Report />
             </div>
@@ -32,7 +30,9 @@ function Dashboard() {
         </div>
         <div className="col-lg-4">
           <RecentActivity />
-          <BudgetReport/>
+          <BudgetReport />
+          <WebTraffic />
+          <News />
         </div>
       </div>
     </section>
