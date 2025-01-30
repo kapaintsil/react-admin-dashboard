@@ -17,6 +17,6 @@ function Logo() {
       </i>
     </div>
   );
-}
+};
 
 export default Logo;

@@ -28,7 +28,7 @@ function CardFilter({ filterChange }) {
       </ul>
     </div>
   );
-}
+};
 
 // Define PropTypes for validation
 CardFilter.propTypes = {

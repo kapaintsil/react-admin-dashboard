@@ -11,6 +11,6 @@ function Header() {
       <Nav />
     </header>
   );
-}
+};
 
 export default Header;

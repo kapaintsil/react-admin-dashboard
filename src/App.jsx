@@ -24,6 +24,6 @@ function App() {
       <BackToTop />
     </>
   );
-}
+};
 
 export default App;

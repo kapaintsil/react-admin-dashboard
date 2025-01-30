@@ -53,17 +53,17 @@ function BudgetChart() {
           ]
         }
       ]
-    })
+    });
   }, []);
 
   return (
     <div
       id='budgetChart'
-      style={{ minHeight: '400px'}}
+      style={{ minHeight: '400px' }}
       className='eChart'
     >
     </div>
-  )
-}
+  );
+};
 
 export default BudgetChart;

@@ -9,6 +9,6 @@ function Cards() {
         cards.map((card) => <Card key={card._id} card={card} />)}
     </div>
   );
-}
+};
 
 export default Cards;

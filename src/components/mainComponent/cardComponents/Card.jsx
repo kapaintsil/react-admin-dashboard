@@ -47,7 +47,7 @@ function Card({ card }) {
       </div>
     </div>
   );
-}
+};
 
 // Prop validation for `card` object
 Card.propTypes = {

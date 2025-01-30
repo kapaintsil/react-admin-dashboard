@@ -1,7 +1,4 @@
-
-
 import PropTypes from 'prop-types';
-
 function NewsPostItem({ item }) {
   return (
     <div className="post-item clearfix mt-0">
@@ -13,7 +10,7 @@ function NewsPostItem({ item }) {
       <p>{item.subtitle}</p>
     </div>
   );
-}
+};
 
 NewsPostItem.propTypes = {
   item: PropTypes.shape({

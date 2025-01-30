@@ -13,6 +13,6 @@ function Nav() {
       </ul>
     </nav>
   );
-}
+};
 
 export default Nav;
