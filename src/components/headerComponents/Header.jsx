@@ -1,6 +1,6 @@
-import Logo from './headerComponents/navComponents/Logo';
-import SearchBar from './headerComponents/navComponents/SearchBar';
-import Nav from './headerComponents/navComponents/Nav';
+import Logo from './navComponents/Logo';
+import SearchBar from './navComponents/SearchBar';
+import Nav from './navComponents/Nav';
 import './Header.css';
 
 function Header() {

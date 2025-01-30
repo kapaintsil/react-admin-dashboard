@@ -1,13 +1,12 @@
-import { useState } from "react";
-import CardFilter from "./CardFilter";
-import WebTrafficChart from "./WebTrafficChart";
+import { useState } from 'react';
+import CardFilter from '../cardComponents/CardFilter';
+import WebTrafficChart from './WebTrafficChart';
 
 function WebTraffic() {
-
   const [filter, setFilter] = useState('Today');
-      const handleFilterChange = filter => {
-        setFilter(filter);
-      }
+  const handleFilterChange = (filter) => {
+    setFilter(filter);
+  };
 
   return (
     <div className="card">
@@ -17,10 +16,10 @@ function WebTraffic() {
         <h5 className="card-title">
           Website Traffic<span>| {filter}</span>
         </h5>
-          <WebTrafficChart />
+        <WebTrafficChart />
       </div>
     </div>
-  )
+  );
 }
 
 export default WebTraffic;

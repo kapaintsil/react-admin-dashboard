@@ -7,12 +7,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 // import Header component
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import Main from './components/Main';
+import Header from './components/headerComponents/Header';
+import Sidebar from './components/sidebarComponents/Sidebar';
+import Main from './components/mainComponent/Main';
 import './App.css';
-import Footer from './components/Footer';
-import BackToTop from './components/BackToTop';
+import Footer from './components/footerComponents/Footer';
+import BackToTop from './components/bacToTopComponents/BackToTop';
 
 function App() {
   return (

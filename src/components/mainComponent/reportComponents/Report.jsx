@@ -1,9 +1,9 @@
-import { useState } from "react";
-import CardFilter from "./CardFilter";
-import ReportCharts from "./ReportCharts";
+import { useState } from 'react';
+import CardFilter from '../cardComponents/CardFilter';
+import ReportCharts from './ReportCharts';
 
 function Report() {
-  const [filter, setFilter] = useState("Today");
+  const [filter, setFilter] = useState('Today');
 
   const handleFilterChange = (filter) => {
     setFilter(filter);

@@ -1,8 +1,7 @@
 import Chart from 'react-apexcharts';
-import reportData from '../../data/reportData';
+import reportData from '../../../data/reportData';
 
 function ReportCharts() {
-
   return (
     <Chart
       options={reportData.options}
@@ -10,7 +9,7 @@ function ReportCharts() {
       type={reportData.options.chart.type}
       height={reportData.options.chart.height}
     />
-  )
+  );
 }
 
-export default ReportCharts
+export default ReportCharts;
