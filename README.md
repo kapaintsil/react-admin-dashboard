@@ -46,14 +46,20 @@ This is an Admin Dashboard project built with **React** and **Vite**. The dashbo
    git clone https://github.com/kapaintsil/react-admin-dashboard.git
 
 
-2. ```bash cd react-admin-dashboard
+2. ```bash 
+    cd react-admin-dashboard
 
-   To navigate to the project home directory
+   
+    To navigate to the project home directory
 
-3. ```bash npm install
+3. ```bash 
+    npm install
+
 
    To all install all relevant dependencies and modules.
 
-4. ```bash npm run dev
+4. ```bash 
+      npm run dev
+
 
    To launch the project in the development server
