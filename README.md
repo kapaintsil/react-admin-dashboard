@@ -43,17 +43,18 @@ This is an Admin Dashboard project built with **React** and **Vite**. The dashbo
 
 1. Clone this repository to your local machine:
    ```bash
-   `git clone https://github.com/kapaintsil/react-admin-dashboard.git`
+   git clone https://github.com/kapaintsil/react-admin-dashboard.git
 
 
-2. `cd react-admin-dashboard`
+2. ```bash
+   cd react-admin-dashboard
 
-To navigate to the project home directory
+   To navigate to the project home directory
 
 3. `npm install`
 
-To all install all relevant dependencies and modules.
+   To all install all relevant dependencies and modules.
 
 4. `npm run dev`
 
-To launch the project in the development server
+   To launch the project in the development server
